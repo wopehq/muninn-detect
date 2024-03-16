@@ -1,0 +1,42 @@
+{
+  "name": "muninn-detect",
+  "version": "0.1.0",
+  "description": "It parses the html and collects the requested data as desired.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "lint": "eslint . --ext .ts",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wopehq/muninn-detect.git"
+  },
+  "keywords": [
+    "htmlparser",
+    "selector",
+    "scraper",
+    "parser",
+    "cheerio",
+    "html"
+  ],
+  "author": "wopehq <opensource@wope.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "^1.0.8",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "cheerio": "^1.0.0-rc.12",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

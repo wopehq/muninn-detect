@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["./tests/**/*"],
+  "include": ["./src/**/*"]
+}
